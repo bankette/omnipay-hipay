@@ -1,0 +1,26 @@
+{
+  "name": "bankette/omnipay-hipay",
+  "type": "library",
+  "description": "Integrate Hipay in omnipay",
+  "keywords": [
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "purchase",
+    "hipay"
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "omnipay/omnipay": "~2.0"
+  },
+  "autoload": {
+    "psr-4": { "Bankette\\OmnipayHipay\\": "" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
