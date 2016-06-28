@@ -90,26 +90,4 @@ class Gateway extends AbstractGateway
     {
         return $this->setParameter('secret', $value);
     }
-
-    /**
-     * Is test mode?
-     *
-     * @return bool
-     */
-    public function getTestMode()
-    {
-        return $this->getParameter('test_mode');
-    }
-
-    /**
-     * Set test mode to true or false.
-     *
-     * @param bool $value
-     *
-     * @return Gateway
-     */
-    public function setTestMode($value)
-    {
-        return $this->setParameter('test_mode', $value);
-    }
 }
